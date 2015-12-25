@@ -53,6 +53,6 @@ Req_Data$Activity <- as.factor(Req_Data$Activity)
 Req_Data$Subject <- as.factor(Req_Data$Subject)
 Req_Data <- data.table(Req_Data)
 #Tidy data file creation
-Tidy_Data <- aggregate(. ~Subject + Activity, Req_Data, mean)
-Tidy_Data <- Tidy_Data[order(Tidy_Data$Subject,Tidy_Data$Activity),]
+Tidy_Data <- aggregate(. ~Activity+Subject, Req_Data, mean)
+Tidy_Data <- Tidy_Data[order(Tidy_Data$Activity,Tidy_Data$Subject),]
 write.table(Tidy_Data, file = "Tidy_Data.txt", row.names = FALSE)
