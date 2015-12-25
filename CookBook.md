@@ -19,4 +19,4 @@ Factoring the activity column and assigning the factors to the filtered data
 - LOC 55- 57
 Aggregate the data based on subject and activity
 - LOC 58
-- Tidy Data File creation
+Tidy Data File creation
