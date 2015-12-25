@@ -2,10 +2,8 @@
 Explanation of run_Analysis.R script
 - LOC 4 to 13
 Download the data from Website and note the time of download
-
 - LOC 15 to 25
-Reading the data
-The data consist of Test and Training sets and lables for activity and subject.
+Reading the data.The data consist of Test and Training sets and lables for activity and subject.
 - LOC 27-28
 Removing () from the feature lables
 - LOC 30-33
